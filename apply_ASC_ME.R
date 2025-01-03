@@ -37,6 +37,9 @@ set.seed(555)
 # A: "sample" (name of your samples / sample ID; required information)
 # B: "dpi" (days since last vaccination or infection; required information - enter "0" if unknown)
 # C-J: "maturity markers" (CD19, CD20, CD28, CD45, CD56, CD138, HLA.DR, Ki67 - as normalized expression value)
+# !IMPORTANT!: a minimum of one marker is required! 
+# !IMPORTANT!: Cytometry-acquired markers presumably give a more reliable result than imputed values
+
 # K: "StudyID" (name of your Study)
 # L: "organ" (e.g. "blood" or a specific tissue 
 # M: "Gender" (sex/gender of sampled individual)
